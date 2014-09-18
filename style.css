@@ -1,6 +1,12 @@
 body {
 	text-align:center;
 	background-color:rgb(255,255,255);
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
 }
 
 
@@ -38,11 +44,12 @@ body {
     font: bold 12px/12px HelveticaNeue, Arial;
     padding: 8px 11px;
     color: #555;
-    border: 1px solid #dedede;
+    border: 2px solid #000;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
     cursor: pointer;
+
 }
 
 footer {
