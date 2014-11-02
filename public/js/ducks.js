@@ -21,7 +21,7 @@ $( document ).ready(function() {
 
 	var angle = 0;
 	setInterval(function(){
-      	angle+=IMAGE_ROTATION;
+      	angle += IMAGE_ROTATION;
      	$("img").rotate(angle);
 	},1);
 
