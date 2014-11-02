@@ -5,7 +5,6 @@ var BLUE_INDEX = 2;
 
 
 $( document ).ready(function() {
-    alert( "ready!" );
 
 	$('#bigger').on("click", function(){
 		$('img').css("width","+=20%");
